@@ -14,3 +14,14 @@ for i in range(3):
 for _ in range(3):
     print("meow")
 
+# Using a controlled infinity loop
+while True:
+    n = int(input("How many times do you want to meow? "))
+    if n > 0:
+        break
+
+for _ in range(n):
+    print("meow")
+
+
+
