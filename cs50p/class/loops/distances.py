@@ -9,11 +9,11 @@ distances = {
 def main():
     # for distance in distances.key():
     # for distance in distances.values():
-    for distance in distances:
-        print(distance, distances[distance], sep=" - ")
+    for key, value in distances.items():
+        print(key, value, sep=" - ")
 
     for distance in distances.values():
-        print(f"{distance} AU is {convert_to_meter(distance)} m");
+        print(f"{distance} AU is {convert_to_meter(distance)} m")
 
 # Convert Away from earth to meters
 def convert_to_meter(au):
