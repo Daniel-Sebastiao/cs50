@@ -9,8 +9,8 @@ def main():
     results.extend(["Bowser", "Donkey Kong Jr."])
     results.insert(0, "Toad")
 
-    # for name in range(len(names)):
-       # results.insert(name, names[name])
+    # for i in range(len(names)):
+       # results.insert(i, names[name])
 
     print(results)
 main()
